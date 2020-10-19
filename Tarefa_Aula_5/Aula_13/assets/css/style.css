@@ -1,0 +1,11 @@
+form{
+    margin: 0 auto;
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: lightgray;
+    border-radius: 5px;
+    padding: 20px;
+}
+div input{
+    width: 250px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <title>Aula 13</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <form action="/action_page.php" method="GET">
+        <fieldset>
+            <div>
+                <label>Nome:</label><br>
+                <input type="text" disabled name="nome" value="João"><br><br>
+                <label>Nome:</label><br>
+                <input type="text" placeholder="nome" maxlength="40" name="nome"><br><br>
+            </div>
+            <label>Sexo:</label><br>
+            <input type="radio" name="genero">Masculino</input><br>
+            <input type="radio" name="genero">Feminino</input><br><br>
+            <label>Nota:</label><br>
+            <input type="text" name="nota" /><br><br>
+            <label>Carros:</label><br>
+            <select name="carros">
+                <option value="Volvo">Volvo</option>
+                <option value="Ford">Ford</option>
+                <option value="Fiat">Fiat</option>
+                <option value="Audi">Audi</option>
+            </select><br><br>
+            <div>
+                <input type="button" value="OK" />
+                <input type="submit" value="Enviar" />
+            </div>
+        </fieldset>
+    </form>
+
+
+</body>
+
+</html>
