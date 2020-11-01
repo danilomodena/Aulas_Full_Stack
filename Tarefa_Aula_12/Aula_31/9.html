@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    
+    <title>Bootstrap</title>
+    <link rel="stylesheet" type="text/css" href="assets/libs/bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="row">
+        <div class="container">
+            <button type="button" class="btn btn-success" title="Título" data-toggle="popover"
+                data-content="Estas são as dicas">Clique aqui</button>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="assets/libs/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="assets/libs/popper.min.js"></script>
+    <script type="text/javascript" src="assets/libs/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript">$(function () {
+        $('[data-toggle="popover"]').popover()
+    })</script>
+</body>
+
+</html>
