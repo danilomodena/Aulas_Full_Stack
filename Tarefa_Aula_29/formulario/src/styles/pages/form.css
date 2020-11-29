@@ -1,0 +1,43 @@
+main{
+    width: 100%;
+    max-width: 50rem;
+    margin: auto;
+}
+fieldset{
+    margin-top: 2.0rem;
+    border: none;
+    padding: 0 2.4rem;
+}
+
+.input-block input,
+.textarea-block textarea{
+    height: 2rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 0.4rem;
+    border: 1px solid;
+    outline: 0;
+    padding: 0 1.6rem;
+}
+.textarea-block textarea{
+    height: 6rem;
+}
+button{
+    width: 30%;
+    height: 3rem;
+    border: 0;
+    background: gray;
+    color: white;
+    border-radius: 0.2rem;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    cursor: pointer;
+    display: flex;
+    transition: background 0.3s;
+    margin-top: 0.5rem;
+    margin-bottom: 2.0rem;
+}
+button:hover{
+    background-color: green;
+}
